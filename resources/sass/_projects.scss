@@ -1,0 +1,42 @@
+#projects {
+    .projects-title {
+        h3 {
+            font-size: 2rem;
+            font-weight: 600;
+            padding: 0px 20px;
+            margin: 30px 0px;
+            border-left: 3px solid $primary-color;
+        }
+    }
+    .project-card {
+        .card-img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: left;
+        }
+        .img-project {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+        .card-body {
+            .card-text {
+                font-size: 0.7rem;
+                line-height: 1.5;
+                color: $grey-4;
+            }
+            a {
+                background: $primary-color;
+                border: none;
+                border-radius: unset;
+                display: inline-block;
+                margin-right: 10px;
+                &:hover {
+                    background: $second-color;
+                }
+            }
+        }
+    }
+}

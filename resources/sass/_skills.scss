@@ -1,0 +1,67 @@
+#skills {
+    .container {
+        .col-md-12 {
+            margin-top: 20px;
+            .skills-title {
+                h3 {
+                    font-size: 2rem;
+                    font-weight: 600;
+                    padding: 0px 20px;
+                    margin: 30px 0px;
+                    border-left: 3px solid $primary-color;
+                }
+            }
+            .skills-desc {
+                margin: 20px 0px 40px 0px;
+                p {
+                    font-size: 0.9rem;
+                    line-height: 1.7;
+                    color: $grey-4;
+                }
+            }
+        }
+        .col-md-3 {
+            .skills-icon {
+                i {
+                    margin-top: 20px;
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+                }
+                .fa-html5 {
+                    color: #de6e3c;
+                }
+                .fa-css3-alt {
+                    color: #53a7dc;
+                }
+                .fa-js {
+                    color: #f1de4f;
+                }
+                .fa-php {
+                    color: #777baf;
+                }
+                .fa-laravel {
+                    color: #ff2d20;
+                }
+                .fa-database {
+                    color: #005e86;
+                }
+                .fa-npm {
+                    color: red;
+                }
+                .fa-server {
+                    color: #025f9a;
+                }
+            }
+            .skills-title {
+                font-weight: 700;
+            }
+            .skills-desc {
+                p {
+                    font-size: 0.8rem;
+                    line-height: 1.7;
+                    color: $grey-4;
+                }
+            }
+        }
+    }
+}
